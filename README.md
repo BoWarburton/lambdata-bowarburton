@@ -7,6 +7,8 @@ Here's how you use the code in this package:
 
 ## Usage
 
+How to import the function
+
 ```py
 from my_lambdata.my_mod import enlarge
 

@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="lambdata-bowarburton",
-    version="1.1",
+    version="1.2",
     author="Bo Warburton",
     author_email="bo@warburton.com",
     description="Lambda School Data Science Cohort DSPT5, Unit 3, Sprint 1",
