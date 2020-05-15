@@ -1,11 +1,12 @@
 # setup.py file
 
-from setuptools import find_packages, setup
+import setuptools
+# from setuptools import find_packages, setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name="lambdata-bowarburton",
     version="1.2",
     author="Bo Warburton",
@@ -15,6 +16,6 @@ setup(
     long_description_content_type="text/markdown",
     license="MIT",
     url="https://github.com/bowarburton/lambdata-bowarburton",
-    #keywords="",
-    packages=find_packages() # ["my_lambdata"]
+    packages=setuptools.find_packages(),
+    python_requires='>=3.6',
 )

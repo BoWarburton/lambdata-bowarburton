@@ -1,6 +1,6 @@
 # lambdata-bowarburton
 Lambda School Data Science Unit 3, Sprint 1
-I have now cloned the repository and opened the README in VSCODE.
+This is my package for assignments and etc.
 
 Here's how you use the code in this package:
 ## Installation
@@ -15,3 +15,6 @@ from my_lambdata.my_mod import enlarge
 x = 11
 print(enlarge(x))
 ```
+
+## Version History
+1.1 skipped
