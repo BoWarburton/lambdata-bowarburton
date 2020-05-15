@@ -11,7 +11,7 @@ print(df.head())
 
 x = 11
 print('Number', x)
-print('Enlarged number', enlarge(x)) #invoking the function
+print('Enlarged number', enlarge(x))
 
 # df = pandas.DataFrame({'state':['CT', 'CO', 'CA', 'CA', 'TX']})
 # print(df.head())
